@@ -10,9 +10,11 @@ def loadRSS():
 def parseXML(rss):
 	root = ET.fromstring(rss)
 	newsitems = []
-	for item in root.findall('./channel/item'):
+	
+	for item in root.findall('./channel/item'): # path for content
 		news = {}
 		for child in item:
+			# this needs to be adjusted for the feed formatting
 			if child.tag == '{http://search.yahoo.com/}content':
 				news['media'] = child.attrib['url']
 			else:
