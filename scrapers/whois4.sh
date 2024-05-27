@@ -18,7 +18,7 @@ lookup_domain_info() {
 	return
   fi
 
-  registrar=$(echo "$whois_output" | grep -i -m 1 "Registrar:" | awk -F: '{print urlencode($2)}' | xargs)
+  registrar=$(echo "$whois_output" | grep -i -m 1 "Registrar:" | awk -F: '{print ($2,$3,$4)}' | xargs)
   creation_date=$(echo "$whois_output" | grep -i -m 1 "Creation Date:" | awk -F: '{print $2}' | xargs)
   expiration_date=$(echo "$whois_output" | grep -i -m 1 "Expiration Date:" | awk -F: '{print $2}' | xargs)
   registrant_name=$(echo "$whois_output" | grep -i -m 1 "Registrant Name:" | awk -F: '{print $2}' | xargs)

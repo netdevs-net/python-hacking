@@ -14,8 +14,8 @@ def parseXML(rss):
 	for item in root.findall('./channel/item'): # path for content
 		news = {}
 		for child in item:
-			# this needs to be adjusted for the feed formatting
-			if child.tag == '{http://search.yahoo.com/}content':
+			# this needs to be adjusted for the updated feed tags
+			if child.tag == '{https://latimes.com/}content':
 				news['media'] = child.attrib['url']
 			else:
 				news[child.tag] = child.text.encode('utf8')

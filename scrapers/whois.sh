@@ -21,3 +21,4 @@ do
   echo "$domain,$registrar,$creation_date,$expiration_date" | tr -d '\n' >> domain_info.csv
 
 done < domains.csv
+
