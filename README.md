@@ -1,31 +1,29 @@
-# Project Title
+# Python Hacking
 
-Simple overview of use/purpose.
+This is a collection of project scripts and logic puzzles that are solved in Python. And there are some AWS DeepRacer reward scripts.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Most of this code is my solutions to CTFs. I like to compare my code to AI code and evaluate modern AI code solutions. It's a training location, where I can store solutions to all sorts of coding puzzles.
+
+Some of this code is for the cybersecurity pros and hackerz.
 
 ## Getting Started
 
+Find what you need, use what you want. Leave no trace.
+
 ### Dependencies
 
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+- Python
+-
 
 ### Installing
 
 - How/where to download your program
-- Any modifications needed to be made to files/folders
 
 ### Executing program
 
-- How to run the program
-- Step-by-step bullets
-
-```
-code blocks for commands
-```
+- Look for the README.md files on the respective folders.
 
 ## Help
 
@@ -53,6 +51,7 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Research and Development
 
+- [awesome-readme](https://github.com/matiassingers/awesome-readme)
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)

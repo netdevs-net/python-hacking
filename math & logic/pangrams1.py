@@ -1,4 +1,4 @@
-from collections import Counter
+# this is my code mixed with Gemini Code
 
 def min_cost_pangram(prices, text):
   """
@@ -11,19 +11,8 @@ def min_cost_pangram(prices, text):
   Returns:
 	  The minimum cost to make the text a pangram.
   """
-  # Pre-calculate character indices (a-z) for faster lookups
-  char_indices = {chr(i): i - ord('a') for i in range(ord('a'), ord('z') + 1)}
-  
-  # Count letter frequencies in the text using Counter
-  text_counts = Counter(text)
-  
-  missing_letters = set()
-  for char, count in text_counts.items():
-	if count == 0:
-	  missing_letters.add(char)
-  
-  # Calculate total cost using list comprehension and pre-calculated indices
-  return sum(prices[char_indices[char]] for char in missing_letters)
+  missing_letters = set(chr(i) for i in range(ord('a'), ord('z') + 1)) - set(text)
+  return sum(prices[ord(char) - ord('a')] for char in missing_letters)
 
 def main():
   """
