@@ -1,6 +1,6 @@
 # Python Hacking
 
-This is a collection of project scripts and logic puzzles that are solved in Python. And there are some AWS DeepRacer reward scripts.
+This is a collection of project scripts and logic puzzles that are solved in Python. And there are some Python proxies.
 
 ## Description
 
@@ -38,7 +38,7 @@ command to run if program contains helper info
 Contributors names and contact info
 
 Ryan Iguchi
-[@netdevs-net](https://netdevs.net)
+[https://netdevs.net](https://netdevs.net)
 
 ## Version History
 
@@ -53,5 +53,4 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 Research and Development
 
-- [awesome-readme](https://github.com/matiassingers/awesome-readme)
 - [awesome-readme](https://github.com/matiassingers/awesome-readme)
