@@ -6,7 +6,7 @@ This is a collection of project scripts and logic puzzles that are solved in Pyt
 
 Most of this code is my solutions to CTFs. I like to compare my code to AI code and evaluate modern AI code solutions. It's a training location, where I can store solutions to all sorts of coding puzzles.
 
-Some of this code is for the cybersecurity pros and hackerz.
+Some of this code is for the cybersecurity pros and hackerz. You know who you are and you want the scrapers or the proxies.
 
 ## Getting Started
 
@@ -27,17 +27,11 @@ Find what you need, use what you want. Leave no trace.
 
 ## Help
 
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
+No help is provided for this project repo. If you want to message me, find me on LinkedIn.
 
 ## Authors
 
-Contributors names and contact info
-
-Ryan Iguchi
+Ryan Iguchi, NetDevs.net
 [@netdevs-net](https://netdevs.net)
 
 ## Version History
@@ -51,7 +45,7 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 
 ## Acknowledgments
 
-Research and Development
+Related Links
 
-- [awesome-readme](https://github.com/matiassingers/awesome-readme)
-- [awesome-readme](https://github.com/matiassingers/awesome-readme)
+- [Website - https://NetDevs.net](https://netdevs.net)
+- [Python Practice](https://codechef.com)
